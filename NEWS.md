@@ -1,4 +1,28 @@
-# zellkonverter (development version)
+# zellkonverter 1.0 (Bioconductor 3.12)
+
+## zellkonverter 0.99.1 (2020-07-15)
+
+* Fix SCE to AnnData map figure in PDF manual
+* Use `expect_equal()` instead of `expect_identical()` in `writeH5AD()` sparse
+  matrices test
+* Edit package title and description
+
+## zellkonverter 0.99.0 (2020-07-10)
+
+* Initial Biocoductor submission
+
+# zellkonverter (early development version)
+
+## zellkonverter 0.0.0.9017 (2020-07-10)
+
+* Add biocViews to DESCRIPTION
+* Edit package description
+* Tidy code
+* Replace 1:... with `seq_len()`
+
+## zellkonverter 0.0.0.9016 (2020-07-10)
+
+* Add check for **scRNAseq** in examples (Fixes #18)
 
 ## zellkonverter 0.0.0.9015 (2020-07-02)
 
